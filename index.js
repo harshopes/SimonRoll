@@ -1,13 +1,11 @@
 
 var buttonColours = ["red", "blue", "green", "yellow"];
-
 var gamePattern = [];
 var userClickedPattern = [];
-
 var started = false;
 var level = 0;
 
-$(document).click(function() {
+$("#level-title").click(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -36,7 +34,7 @@ function checkAnswer(currentLevel) {
       if (userClickedPattern.length === gamePattern.length){
         setTimeout(function () {
           nextSequence();
-        }, 1000);
+        }, 900);
       }
 
     } else {
@@ -55,7 +53,7 @@ function checkAnswer(currentLevel) {
         $("body").removeClass("game-over");
       }, 200);
 
-      $("#level-title").text("Game over!! Press any Key to Restart");
+      $("#level-title").text("Game Over!! Click here to Restart");
 
       startOver();
     }

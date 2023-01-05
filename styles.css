@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background: radial-gradient(circle, transparent 20%, #072d3e 20%, #072d3e 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #072d3e 20%, #072d3e 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#0a9332 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #0a9332 2px, #072d3e 2px) -1px 0px / 32px 32px #072d3e;
+  background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+  background-color: #072d3e;
+  
+
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.rick-roll{
+ background-image: url(https://wallpapercave.com/uwp/uwp2869579.gif);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
